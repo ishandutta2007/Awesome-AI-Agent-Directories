@@ -63,33 +63,33 @@ The sector is **moderately to highly fragmented** at the long tail with hundreds
 
 ## 💻 Open-Source GitHub Projects
 
-Sorted in descending order by GitHub stars. Each repository includes a real-time star badge linking to its official stargazers page:
+Sorted in descending order by GitHub_Stars. Each repository includes a real-time Stars_Badge linking to its official stargazers page:
 
-1. **[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** [![GitHub stars](https://img.shields.io/github/stars/Significant-Gravitas/AutoGPT?style=social&color=white)](https://github.com/Significant-Gravitas/AutoGPT/stargazers)  
+1. **[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** [![GitHub_Stars](https://img.shields.io/github/stars/Significant-Gravitas/AutoGPT?style=social&color=white)](https://github.com/Significant-Gravitas/AutoGPT/stargazers)  
    The pioneer open-source autonomous agent ecosystem with extensive community extensions, agent builder environments, and runnable multi-agent patterns.
 
-2. **[browser-use](https://github.com/browser-use/browser-use)** [![GitHub stars](https://img.shields.io/github/stars/browser-use/browser-use?style=social&color=white)](https://github.com/browser-use/browser-use/stargazers)  
+2. **[browser-use](https://github.com/browser-use/browser-use)** [![GitHub_Stars](https://img.shields.io/github/stars/browser-use/browser-use?style=social&color=white)](https://github.com/browser-use/browser-use/stargazers)  
    The leading open-source web browsing and computer-use agent library that makes websites accessible for AI agents with interactive automation workflows.
 
-3. **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** [![GitHub stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=social&color=white)](https://github.com/All-Hands-AI/OpenHands/stargazers)  
+3. **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** [![GitHub_Stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=social&color=white)](https://github.com/All-Hands-AI/OpenHands/stargazers)  
    Formerly OpenDevin, a platform for software development AI agents capable of writing code, running bash commands, and collaborating on complex codebases.
 
-4. **[AutoGen](https://github.com/microsoft/autogen)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/autogen?style=social&color=white)](https://github.com/microsoft/autogen/stargazers)  
+4. **[AutoGen](https://github.com/microsoft/autogen)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/autogen?style=social&color=white)](https://github.com/microsoft/autogen/stargazers)  
    Microsoft's premier open-source multi-agent conversation framework and extensive showcase directory for orchestrating collaborative AI agent workflows.
 
-5. **[CrewAI](https://github.com/crewAIInc/crewAI)** [![GitHub stars](https://img.shields.io/github/stars/crewAIInc/crewAI?style=social&color=white)](https://github.com/crewAIInc/crewAI/stargazers)  
+5. **[CrewAI](https://github.com/crewAIInc/crewAI)** [![GitHub_Stars](https://img.shields.io/github/stars/crewAIInc/crewAI?style=social&color=white)](https://github.com/crewAIInc/crewAI/stargazers)  
    Cutting-edge framework for orchestrating role-playing autonomous AI agents, accompanied by extensive showcases, template repositories, and production crew directories.
 
-6. **[LlamaIndex](https://github.com/run-llama/llama_index)** [![GitHub stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers)  
+6. **[LlamaIndex](https://github.com/run-llama/llama_index)** [![GitHub_Stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers)  
    Data framework for LLM applications with dedicated agent orchestration, LlamaHub tool catalog, and retrieval-augmented agent directories.
 
-7. **[LangGraph / LangChain Agents](https://github.com/langchain-ai/langgraph)** [![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=social&color=white)](https://github.com/langchain-ai/langgraph/stargazers)  
+7. **[LangGraph / LangChain Agents](https://github.com/langchain-ai/langgraph)** [![GitHub_Stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=social&color=white)](https://github.com/langchain-ai/langgraph/stargazers)  
    Official and community agent repository that functions as a living index of cyclical graph workflows, multi-agent state machines, and resilient architectures.
 
-8. **[500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects)** [![GitHub stars](https://img.shields.io/github/stars/ashishpatel26/500-AI-Agents-Projects?style=social&color=white)](https://github.com/ashishpatel26/500-AI-Agents-Projects/stargazers)  
+8. **[500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects)** [![GitHub_Stars](https://img.shields.io/github/stars/ashishpatel26/500-AI-Agents-Projects?style=social&color=white)](https://github.com/ashishpatel26/500-AI-Agents-Projects/stargazers)  
    Massive catalog of 500+ practical AI agent implementations categorized by vertical, industry, and orchestration framework with runnable tutorials and source code.
 
-9. **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** [![GitHub stars](https://img.shields.io/github/stars/e2b-dev/awesome-ai-agents?style=social&color=white)](https://github.com/e2b-dev/awesome-ai-agents/stargazers)  
+9. **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** [![GitHub_Stars](https://img.shields.io/github/stars/e2b-dev/awesome-ai-agents?style=social&color=white)](https://github.com/e2b-dev/awesome-ai-agents/stargazers)  
    Comprehensive, community-curated list of autonomous AI agents, developer frameworks, execution sandboxes, and foundational agent papers.
 
 ---
@@ -109,7 +109,7 @@ Contributions are warmly welcomed! Help keep this directory current, accurate, a
 1. 🍴 **Fork the repo** to your personal GitHub account.
 2. 🌿 **Create a branch** for your feature or catalog update (`git checkout -b add-new-agent-directory`).
 3. ✍️ **Add or edit entries** in `README.md` following the established format:
-   - Include: Name, official URL, concise factual description, and star badge / pricing data.
+   - Include: Name, official URL, concise factual description, and Stars_Badge / pricing data.
 4. 🚀 **Submit a Pull Request** with a clear explanation of why the addition is valuable to the community.
 
 Please check existing listings before opening a PR to avoid duplicates!
