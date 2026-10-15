@@ -40,63 +40,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[There's An AI For That](https://theresanaiforthat.com/)**  
-
-  Large searchable directory of AI tools and agents organized by task and category, popular for quick discovery of new AI products.
-
-
-
-- **[Futurepedia](https://www.futurepedia.io/)**  
-
-  Curated AI tools directory with filters by use case, pricing, and features; frequently updated with new AI applications and agents.
-
-
-
-- **[FutureTools](https://www.futuretools.io/)**  
-
-  AI tools and agents directory focused on emerging products, with rankings and categorization for builders and users.
-
-
-
-- **[AI Cyclopedia](https://www.aicyclopedia.com/)**  
-
-  Directory and knowledge base covering AI tools, agents, and related resources across multiple domains.
-
-
-
-- **[Toolify.ai](https://www.toolify.ai/)**  
-
-  AI tools ranking and directory platform that aggregates and ranks AI products and agent-style applications.
-
-
-
-- **[TopAI.tools](https://topai.tools/)**  
-
-  Curated list and search engine for AI tools and agents with categorization and user-oriented discovery features.
-
-
-
-- **[Insidr.ai](https://www.insidr.ai/)**  
-
-  AI tools and agents directory aimed at professionals seeking practical AI solutions and productivity agents.
-
-
-
-- **[AI Valley](https://aivalley.ai/)**  
-
-  Directory and community-oriented listing of AI tools, agents, and platforms.
-
-
-
-- **[Dang.ai](https://dang.ai/)**  
-
-  AI tools directory focused on discovery and comparison of AI products and agent capabilities.
-
-
-
-- **[Easy With AI](https://easywithai.com/)**  
-
-  Accessible directory of AI tools and agents organized for ease of use and quick adoption.
+| Platform | Company Size (Valuation / Revenue) | Pricing (Starting Tier) | Free Tier Limit | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Futurepedia](https://www.futurepedia.io/)** | **~$11.2B Market Cap** *(Acquired by HubSpot)* | $497 one-time (Verified listing) / $24.99/mo (Skill Leap courses) | Free unlimited directory browsing and search; tool submission has 0-day free trial (paid verified listing required for guaranteed review) | Curated AI tools directory with filters by use case, pricing, and features; frequently updated with new AI applications and agents. |
+| **[Toolify.ai](https://www.toolify.ai/)** | **~$2.34M ARR** / $500K Seed raised | $99 one-time (Expedited permanent review & backlink) / $29 one-time (GPT listing) | Free forever standard tool submission with queue-based manual review; free unlimited directory browsing and ranking inspection | AI tools ranking and directory platform that aggregates and ranks AI products and agent-style applications. |
+| **[There's An AI For That](https://theresanaiforthat.com/)** | **~$1.5M - $2M ARR est.** *(4M+ monthly visits, 1.7M+ newsletter subs)* | $49 one-time (Standard listing) | Free forever search and task-based discovery across 50,000+ AI tools; tool submission review queue has no free trial | Large searchable directory of AI tools and agents organized by task and category, popular for quick discovery of new AI products. |
+| **[FutureTools](https://www.futuretools.io/)** | **~$500K - $1M ARR est.** *(250K+ newsletter subs, Matt Wolfe / Media)* | $197/week (Featured top directory sponsorship) | Free forever tool submission (human-curated review queue, no guaranteed listing time); free unlimited directory exploration and news access | AI tools and agents directory focused on emerging products, with rankings and categorization for builders and users. |
+| **[TopAI.tools](https://topai.tools/)** | **~$300K - $600K ARR est.** *(Bootstrapped, ~1M monthly visits)* | $47 one-time (Standard review within 24-48h) | Free forever directory search and AI categorization; 0-day free trial for tool submissions (all submissions require paid review fee) | Curated list and search engine for AI tools and agents with categorization and user-oriented discovery features. |
+| **[Insidr.ai](https://www.insidr.ai/)** | **~$200K - $500K ARR est.** *(Insidr AI ApS, affiliate/consulting model)* | $99 one-time (Fast-track review & featured badge) | Free forever submission plan provided creator includes an active affiliate link; free unlimited access to prompts and tool guides | AI tools and agents directory aimed at professionals seeking practical AI solutions and productivity agents. |
+| **[Dang.ai](https://dang.ai/)** | **~$150K - $300K ARR est.** *(Bootstrapped micro-SaaS)* | $29 one-time (Fast-track standard listing without badge) | Free forever listing option for 1 category with active mandatory backlink/badge on submitter site (up to 4-week review); free browsing | AI tools directory focused on discovery and comparison of AI products and agent capabilities. |
+| **[Easy With AI](https://easywithai.com/)** | **~$100K - $250K ARR est.** *(Bootstrapped directory)* | $125 one-time (Permanent directory placement, 24h review) | Free forever directory search, prompt guides, and tool comparisons; 0-day free trial for submissions (paid placement only) | Accessible directory of AI tools and agents organized for ease of use and quick adoption. |
+| **[AI Valley](https://aivalley.ai/)** | **~$50K - $150K ARR est.** *(Bootstrapped community directory)* | $20/week (Sponsored homepage banner / featured slot) | Free forever tool submission form with manual editorial review queue; free forever platform access to tools and prompts | Directory and community-oriented listing of AI tools, agents, and platforms. |
+| **[AI Cyclopedia](https://aicyclopedia.com/)** | **<$100K ARR est.** *(Independent niche project)* | $29 one-time (Fast-track verification tier) | Free forever standard tool submission form and free knowledge base browsing across categories | Directory and knowledge base covering AI tools, agents, and related resources across multiple domains. |
 
 
 
