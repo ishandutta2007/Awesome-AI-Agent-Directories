@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1035" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.05" />
+    </linearGradient>
+
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="shadowFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+
+    <filter id="glowFilter" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) scale(1); }
+        50% { transform: translateY(-10px) scale(1.02); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.3; transform: scale(1); }
+        50% { opacity: 0.7; transform: scale(1.15); }
+      }
+      @keyframes flowDash {
+        to { stroke-dashoffset: -120; }
+      }
+      @keyframes orbitCard {
+        0% { transform: translate(0px, 0px); }
+        50% { transform: translate(6px, -8px); }
+        100% { transform: translate(0px, 0px); }
+      }
+      @keyframes orbitCardRev {
+        0% { transform: translate(0px, 0px); }
+        50% { transform: translate(-8px, 6px); }
+        100% { transform: translate(0px, 0px); }
+      }
+      .bg-pulse {
+        animation: pulseGlow 6s ease-in-out infinite alternate;
+        transform-origin: center;
+      }
+      .flow-line {
+        stroke-dasharray: 6 6;
+        animation: flowDash 4s linear infinite;
+      }
+      .animated-card-1 {
+        animation: orbitCard 5s ease-in-out infinite;
+      }
+      .animated-card-2 {
+        animation: orbitCardRev 6s ease-in-out infinite;
+      }
+      .animated-card-3 {
+        animation: floatSlow 4s ease-in-out infinite;
+      }
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        letter-spacing: -0.5px;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        letter-spacing: 0.2px;
+      }
+      .pill-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 11px;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="18" fill="url(#bgGrad)" />
+
+  <!-- Subtle Grid Background -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="200" y1="0" x2="200" y2="360" />
+    <line x1="400" y1="0" x2="400" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="800" y1="0" x2="800" y2="360" />
+    <line x1="1000" y1="0" x2="1000" y2="360" />
+  </g>
+
+  <!-- Dynamic Glowing Orbs in Background -->
+  <circle cx="150" cy="80" r="140" fill="url(#nodeGlow)" class="bg-pulse" filter="url(#glowFilter)" />
+  <circle cx="1060" cy="280" r="160" fill="url(#nodeGlow)" class="bg-pulse" style="animation-delay: -3s;" filter="url(#glowFilter)" />
+
+  <!-- Dynamic Constellation Flows (Behind Title) -->
+  <g opacity="0.35">
+    <path d="M 80 280 C 250 200, 350 320, 520 270" stroke="#38bdf8" stroke-width="2" fill="none" class="flow-line" />
+    <path d="M 700 80 C 850 40, 950 180, 1120 120" stroke="#c084fc" stroke-width="2" fill="none" class="flow-line" style="animation-duration: 5s;" />
+    <path d="M 880 260 C 980 230, 1050 320, 1160 270" stroke="#818cf8" stroke-width="1.5" fill="none" class="flow-line" style="animation-duration: 3s;" />
+  </g>
+
+  <!-- Left Dynamic Floating Badge / Pill -->
+  <g class="animated-card-1" opacity="0.85">
+    <rect x="70" y="55" width="160" height="42" rx="21" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" opacity="0.9" />
+    <circle cx="92" cy="76" r="6" fill="#38bdf8" />
+    <text x="108" y="80" fill="#e2e8f0" class="pill-text">⚡ 50+ AI Catalogs</text>
+  </g>
+
+  <!-- Right Dynamic Floating Cards (Ecosystem Indicators) -->
+  <g class="animated-card-2" opacity="0.9">
+    <rect x="960" y="50" width="170" height="46" rx="12" fill="#1e293b" stroke="#818cf8" stroke-width="1.5" opacity="0.95" />
+    <circle cx="985" cy="73" r="5" fill="#34d399" />
+    <text x="1000" y="77" fill="#f1f5f9" class="pill-text">⭐ 500k+ Stars Indexed</text>
+  </g>
+
+  <g class="animated-card-3" opacity="0.9">
+    <rect x="990" y="240" width="150" height="44" rx="22" fill="#1e293b" stroke="#c084fc" stroke-width="1.5" opacity="0.95" />
+    <circle cx="1012" cy="262" r="5" fill="#c084fc" />
+    <text x="1026" y="266" fill="#f8fafc" class="pill-text">🤖 Autonomous Agents</text>
+  </g>
+
+  <!-- Main Banner Header Titles (Crisp Foreground, High Contrast, Centered) -->
+  <g id="foreground-content" filter="url(#shadowFilter)">
+    <!-- Small Category Tag -->
+    <rect x="475" y="50" width="250" height="28" rx="14" fill="#312e81" stroke="#6366f1" stroke-width="1.2" />
+    <text x="600" y="69" fill="#c7d2fe" font-size="12" text-anchor="middle" class="pill-text" letter-spacing="1.5">CURATED ECOSYSTEM DIRECTORY</text>
+
+    <!-- Main Title -->
+    <text x="600" y="145" fill="url(#accentGrad)" font-size="44" text-anchor="middle" class="title-text">
+      Awesome AI Agent Directories
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="195" fill="#f1f5f9" font-size="19" text-anchor="middle" class="subtitle-text">
+      The Comprehensive Index of AI Agent Catalogs, SaaS Directories &amp; Open-Source Repositories
+    </text>
+
+    <!-- Subtitle Description Line 2 -->
+    <text x="600" y="228" fill="#94a3b8" font-size="14" text-anchor="middle" class="subtitle-text">
+      Discovery Engines • Autonomous Frameworks • Production Agent Implementations • Multi-Agent Systems
+    </text>
+
+    <!-- Interactive Badges Pill Row -->
+    <g transform="translate(305, 265)">
+      <!-- Badge 1 -->
+      <rect x="0" y="0" width="130" height="32" rx="16" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" />
+      <text x="65" y="20" fill="#38bdf8" font-size="12" text-anchor="middle" class="pill-text">🔍 AI Discovery</text>
+
+      <!-- Badge 2 -->
+      <rect x="145" y="0" width="145" height="32" rx="16" fill="#0f172a" stroke="#818cf8" stroke-width="1.2" />
+      <text x="217" y="20" fill="#a5b4fc" font-size="12" text-anchor="middle" class="pill-text">🛠️ SaaS Directories</text>
+
+      <!-- Badge 3 -->
+      <rect x="305" y="0" width="145" height="32" rx="16" fill="#0f172a" stroke="#c084fc" stroke-width="1.2" />
+      <text x="377" y="20" fill="#e9d5ff" font-size="12" text-anchor="middle" class="pill-text">🌟 Open Source</text>
+
+      <!-- Badge 4 -->
+      <rect x="465" y="0" width="125" height="32" rx="16" fill="#0f172a" stroke="#34d399" stroke-width="1.2" />
+      <text x="527" y="20" fill="#6ee7b7" font-size="12" text-anchor="middle" class="pill-text">🚀 Production</text>
+    </g>
+  </g>
+</svg>
